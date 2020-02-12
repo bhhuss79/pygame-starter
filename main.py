@@ -1,8 +1,6 @@
 import pygame # import library
 pygame.init()
 
-img = pygame.image.load('sprite.png').convert 
-img = pygame.image.load("assets/gfx/log.png").convert()
 # Create the window
 win = pygame.display.set_mode((1000, 1000))
 
@@ -19,8 +17,21 @@ while run:
   pygame.draw.rect(win, (0, 204, 255), (50, 50, 100, 200))
   
   #Update the display
-  pygame.display.update()
+img = pygame.image.load("cave.png").convert 
+img = pygame.image.load("assets/gfx/cave.png").convert()
+print 
+img = pygame.image.load("character.png").convert
+img = pygame.image.load("assets/gfx/character.png").convert()
+print
+img = pygame.image.load("front.png").convert
+img = pygame.image.load("assets/gfx/front.png").convert()
+print 
+img = pygame.image.load("Inner.png").convert
+img = pygame.image.load("assets/gfx/Inner.png").convert()
+print 
+img = pygame.image.load("Log.png").convert
+img = pygame.image.load("assets/gfx/Log.png").convert()
+pygame.display.update()
+
 
 print("Ending game")
-pygame.quit()
-
