@@ -43,6 +43,12 @@ clear()
 choice2 = input("You keep walking, and find out that people have been here recently, there are wet stains neaer the gas station, do you A) ingnore it or B) try to get some more clues...?")
 if choice2 == "A" :
   print("You ignore it and keep walking.")
-  print("As you keep walking you keep hearing these strange sounds, from all these")
-  print
+else:
+  print ("You go and try to find something at the gas station that would make sense")
+  print ("You find a wierd chucky doll that has smells terrible")
+time.sleep(3.)
+clear()
+print("As you keep walking you keep hearing these strange sounds, from all directions, it sounds like a little girl. ")
+print("You think its just your mind messing with you because you watched a horro movie last night...")
+
     
