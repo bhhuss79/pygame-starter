@@ -1,5 +1,5 @@
 import time
-
+from playsound import playsound 
 def clear(): 
     from os import system, name 
     # for windows 
@@ -43,9 +43,65 @@ clear()
 choice2 = input("You keep walking, and find out that people have been here recently, there are wet stains neaer the gas station, do you A) ingnore it or B) try to get some more clues...?")
 if choice2 == "A" :
   print("You ignore it and keep walking.")
-else:
+ else:
   print ("You go and try to find something at the gas station that would make sense")
   print ("You find a wierd chucky doll that has smells terrible")
+  print("Ew what is that smell, you get the chills....")
+  time.sleep(7.)
+  clear()
+  time.sleep(.300)
+  print("""       ...----....
+                         ..-:"''         ''"-..
+                      .-'                      '-.
+                    .'              .     .       '.
+                  .'   .          .    .      .    .''.
+                .'  .    .       .   .   .     .   . ..:.
+              .' .   . .  .       .   .   ..  .   . ....::.
+             ..   .   .      .  .    .     .  ..  . ....:IA.
+            .:  .   .    .    .  .  .    .. .  .. .. ....:IA.
+           .: .   .   ..   .    .     . . .. . ... ....:.:VHA.
+           '..  .  .. .   .       .  . .. . .. . .....:.::IHHB.
+          .:. .  . .  . .   .  .  . . . ...:.:... .......:HIHMM.
+         .:.... .   . ."::"'.. .   .  . .:.:.:II;,. .. ..:IHIMMA
+         ':.:..  ..::IHHHHHI::. . .  ...:.::::.,,,. . ....VIMMHM
+        .:::I. .AHHHHHHHHHHAI::. .:...,:IIHHHHHHMMMHHL:. . VMMMM
+       .:.:V.:IVHHHHHHHMHMHHH::..:" .:HIHHHHHHHHHHHHHMHHA. .VMMM.
+       :..V.:IVHHHHHMMHHHHHHHB... . .:VPHHMHHHMMHHHHHHHHHAI.:VMMI
+       ::V..:VIHHHHHHMMMHHHHHH. .   .I":IIMHHMMHHHHHHHHHHHAPI:WMM
+       ::". .:.HHHHHHHHMMHHHHHI.  . .:..I:MHMMHHHHHHHHHMHV:':H:WM
+       :: . :.::IIHHHHHHMMHHHHV  .ABA.:.:IMHMHMMMHMHHHHV:'. .IHWW
+       '.  ..:..:.:IHHHHHMMHV" .AVMHMA.:.'VHMMMMHHHHHV:' .  :IHWV
+        :.  .:...:".:.:TPP"   .AVMMHMMA.:. "VMMHHHP.:... .. :IVAI
+       .:.   '... .:"'   .   ..HMMMHMMMA::. ."VHHI:::....  .:IHW'
+       ...  .  . ..:IIPPIH: ..HMMMI.MMMV:I:.  .:ILLH:.. ...:I:IM
+     : .   .'"' .:.V". .. .  :HMMM:IMMMI::I. ..:HHIIPPHI::'.P:HM.
+     :.  .  .  .. ..:.. .    :AMMM IMMMM..:...:IV":T::I::.".:IHIMA
+     'V:.. .. . .. .  .  .   'VMMV..VMMV :....:V:.:..:....::IHHHMH
+       "IHH:.II:.. .:. .  . . . " :HB"" . . ..PI:.::.:::..:IHHMMV"
+        :IP""HHII:.  .  .    . . .'V:. . . ..:IH:.:.::IHIHHMMMMM"
+        :V:. VIMA:I..  .     .  . .. . .  .:.I:I:..:IHHHHMMHHMMM
+        :"VI:.VWMA::. .:      .   .. .:. ..:.I::.:IVHHHMMMHMMMMI
+        :."VIIHHMMA:.  .   .   .:  .:.. . .:.II:I:AMMMMMMHMMMMMI
+        :..VIHIHMMMI...::.,:.,:!"I:!"I!"I!"V:AI:VAMMMMMMHMMMMMM'
+        ':.:HIHIMHHA:"!!"I.:AXXXVVXXXXXXXA:."HPHIMMMMHHMHMMMMMV
+          V:H:I:MA:W'I :AXXXIXII:IIIISSSSSSXXA.I.VMMMHMHMMMMMM
+            'I::IVA ASSSSXSSSSBBSBMBSSSSSSBBMMMBS.VVMMHIMM'"'
+             I:: VPAIMSSSSSSSSSBSSSMMBSSSBBMMMMXXI:MMHIMMI
+            .I::. "H:XIIXBBMMMMMMMMMMMMMMMMMBXIXXMMPHIIMM'
+            :::I.  ':XSSXXIIIIXSSBMBSSXXXIIIXXSMMAMI:.IMM
+            :::I:.  .VSSSSSISISISSSBII:ISSSSBMMB:MI:..:MM
+            ::.I:.  ':"SSSSSSSISISSXIIXSSSSBMMB:AHI:..MMM.
+            ::.I:. . ..:"BBSSSSSSSSSSSSBBBMMMB:AHHI::.HMMI
+            :..::.  . ..::":BBBBBSSBBBMMMB:MMMMHHII::IHHMI
+            ':.I:... ....:IHHHHHMMMMMMMMMMMMMMMHHIIIIHMMV"
+              "V:. ..:...:.IHHHMMMMMMMMMMMMMMMMHHHMHHMHP'
+               ':. .:::.:.::III::IHHHHMMMMMHMHMMHHHHM"
+                 "::....::.:::..:..::IIIIIHHHHMMMHHMV"
+                   "::.::.. .. .  ...:::IIHHMMMMHMV"
+                     "V::... . .I::IHHMMV"'
+                       '"VHVHHHAHHHHMMV:"'""")
+  playsound("assets/ghost.wav")
+  print("Woah, you just had a major wierd flashback about that movie, you countinue walk")
 time.sleep(3.)
 clear()
 print("As you keep walking you keep hearing these strange sounds, from all directions, it sounds like a little girl. ")
